@@ -18,6 +18,12 @@
     div#formulario {
         float: right;
         width: 70%;
+        font-size: 1.2em;
+    }
+
+    h1 {
+        text-align: center;
+        padding-bottom: 10px;
     }
 }
 
@@ -39,5 +45,11 @@
     div#formulario {
         float: left;
         width: 50%;
+        font-size: 1.5em;
+    }
+
+    h1 {
+        text-align: center;
+        padding-bottom: 10px;
     }
 }
