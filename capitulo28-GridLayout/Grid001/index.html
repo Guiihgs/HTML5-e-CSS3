@@ -7,15 +7,26 @@
     <style>
         div.container {
             text-align: center;
-            display: grid;
-            grid-template-columns: auto auto auto;
-            grid-template-rows: 100px 100px 100px;
 
-            border: 1px dashed black;
+            display: grid;
+
+            /* grid-template-rows: 100px 100px 100px;
+            grid-template-columns: auto auto auto; */
+           grid-template: 100px 100px 100px / auto auto auto;
+
+            gap: 5px;
+
+            grid-auto-rows: 100px;
+            
+           /*  place-items: stretch center;
+            place-content: start center; */
+
+            border: 2px solid black;
         }
 
         div.item {
-
+            padding: 5px;
+            align-content: center;
 
             border: 1px dashed red;
         }
