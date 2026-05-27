@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
+    <title>Portfólio</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <nav id="menu">
+        <nav id="menu"> <!-- Menu Superior -->
             <ul>
                 <li><a href="#"><span class="material-symbols-outlined">home</span></a></li>
                 <li><a href="#"><span class="material-symbols-outlined">neurology</span></a></li>
@@ -22,7 +22,7 @@
     </header>
     
     <main>
-        <section id="ficha">
+        <section id="ficha"> <!-- Sobre mim -->
             <img src="imagens/guanabara-perfil.jpg" alt="Gustavo guanabara" class="foto">
             <h1>Gustavo Guanabara</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ipsum ea fugit architecto mollitia quisquam odio eum quidem quas ducimus nihil ex dolorem, odit suscipit soluta! Aliquid enim debitis omnis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, ratione. Distinctio fugiat recusandae laborum corporis iure tempore. Voluptatum beatae explicabo dicta? Enim, asperiores veniam! Accusantium harum architecto et totam. Ipsum.</p>
@@ -35,7 +35,7 @@
             </div>
         </section>
 
-        <section id="detalhes">
+        <section id="detalhes"> <!-- Apresentaçäo -->
             <article id="video">
                 <h2>Deixe-me Apresentar</h2>
                 <div class="video-container">
@@ -47,7 +47,7 @@
                 <h2>Minhas Skills</h2>
 
                 <div id="skill-container">
-                    <div class="item">
+                    <div class="item"> <!-- Skill 01 -->
                         <div class="info">
                             <span class="nome">
                                <span class="material-symbols-outlined">code_xml</span> HTML5</span>
@@ -62,7 +62,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 02 -->
                         <div class="info">
                             <span class="nome">
                                <span class="material-symbols-outlined">code_xml</span> CSS3</span>
@@ -77,7 +77,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 03 -->
                         <div class="info">
                             <span class="nome">
                                <span class="material-symbols-outlined">code_xml</span> JavaScript</span>
@@ -92,7 +92,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 04 -->
                         <div class="info">
                             <span class="nome">
                                <span class="material-symbols-outlined">code_xml</span> PHP</span>
@@ -107,7 +107,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 05 -->
                         <div class="info">
                             <span class="nome">
                                <span class="material-symbols-outlined">person_check</span> Comunicação</span>
@@ -122,7 +122,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 06 -->
                         <div class="info">
                             <span class="nome">
                                <span class="material-symbols-outlined">person_check</span> Trabalho em equipe</span>
@@ -137,7 +137,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 07 -->
                         <div class="info">
                             <span class="nome">
                                <span class="material-symbols-outlined">person_check</span> Adaptabilidade</span>
@@ -152,7 +152,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 08 -->
                         <div class="info">
                             <span class="nome">
                                <span class="material-symbols-outlined">person_check</span> Liderança</span>
@@ -174,20 +174,20 @@
                 <h2>Formação</h2>
 
                 <div id="formacao-container">
-                    <div class="curso">
+                    <div class="curso"> 
                         <p class="periodo">1991 - 1994</p>
                         <h3 class="instituicao">Escola Tecnica Carioca</h3>
                         <p class="titulacao">Tecnico em Informatica</p>
                     </div>
 
                     <div class="curso">
-                        <p class="periodo">1995 - 2000</p>
+                        <p class="periodo">1995 - 2000</p> <!--  -->
                         <h3 class="instituicao">Escola Tecnica Sulista</h3>
                         <p class="titulacao">Tecnico em Informatica</p>
                     </div>
 
                     <div class="curso">
-                        <p class="periodo">1998 - 2000</p>
+                        <p class="periodo">1998 - 2000</p><!--  -->
                         <h3 class="instituicao">Escola Tecnica Distrito Federal</h3>
                         <p class="titulacao">Tecnico em Informatica</p>
                     </div>
@@ -198,12 +198,54 @@
 
             <article id="projetos">
                 <h2>Projetos</h2>
+
+                <div id="projeto-container"> 
+                    <div class="projeto"> <!-- Projeto 01 -->
+                        <img src="imagens/projeto-01-videos.jpg" alt="Projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projeto de Vídeos</h3>
+                            <p>Projeto construído para treinar a inserção de vídeos em nosso site. </p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt possimus obcaecati maiores sequi reiciendis libero odit inventore neque dignissimos nesciunt vitae quia, a, ducimus vel temporibus? Odit ipsam possimus voluptates.</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 02 -->
+                        <img src="imagens/projeto-02-cordel.jpg" alt="Projeto 2" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2023</p>
+                            <h3 class="titulo">Projeto Cordel</h3>
+                            <p>Projeto construído para treinar efeito paralax em imagens.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt possimus obcaecati maiores sequi reiciendis libero odit inventore neque dignissimos nesciunt vitae quia, a, ducimus vel temporibus? Odit ipsam possimus voluptates.</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 03 -->
+                        <img src="imagens/projeto-03-android.jpg" alt="Projeto 2" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2024</p>
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p>Projeto construído para treinar conteúdos e imagens dinamicas.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt possimus obcaecati maiores sequi reiciendis libero odit inventore neque dignissimos nesciunt vitae quia, a, ducimus vel temporibus? Odit ipsam possimus voluptates.</p>
+                            </details>
+                        </div>
+                    </div>
+
+                </div>
             </article> <!-- Fim article#projetos -->
         </section>
     </main>
 
     <footer>
-
+        Portfólio desenvolvido por <a href="https://www.cursoemvideo.com/" target="_blank" rel="nofollow">Curso em vídeo</a> em 2025.
     </footer>
 
     <script src="scripts/script.js"></script>
