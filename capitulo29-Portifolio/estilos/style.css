@@ -17,7 +17,7 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   background-color: var(--fundo-principal);
   color: var(--texto);
 }
@@ -91,7 +91,7 @@ div#social {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
   gap: 1em;
 }
 
@@ -259,6 +259,21 @@ footer a:hover {
 
 
 @media screen and (min-width: 768px) {
+  main {
+    grid-template-columns: auto 300px 1fr auto;
+  }
+
+  section#ficha {
+    grid-column: 2 / 3 ;
+    height: fit-content;
+    position: sticky;
+    top: 65px;
+  }
+
+  section#detalhes {
+    grid-column: 3 / 4 ;
+  }
+
   #skill-container {
     grid-template-columns: 1fr 1fr;
   }
